@@ -80,7 +80,9 @@ export async function addNewBill(data: any) {
         },
       });
 
-      if (!info?.bills?.length) {
+      const bills = info?.bills || [];
+
+      if (!bills.length) {
         bill_info = await db.payment.create({
           data: {
             appointment_id: Number(data?.appointment_id),
