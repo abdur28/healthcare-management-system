@@ -61,7 +61,7 @@ export default async function Home() {
       </div>
       <footer className="mt-8">
         <p className="text-center text-sm">
-          &copy; 2024 Kinda Hospital Management System. All rights reserved.
+          &copy; 2025 HealthCare Management System. All rights reserved.
         </p>
       </footer>
     </div>
